@@ -1,0 +1,31 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(image.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.container {
+    margin: 230px auto;
+    width: 50%;
+    height: 500px;
+    border: 1px solid black;
+    border-radius: 30px;
+    text-align: center;
+}
+
+.box {
+    width: 50%;
+    height: 250px;
+    margin: 125px 190px;
+    text-align: center;
+}
+
+input {
+    border: 1px dotted black;
+    border-radius: 20px;
+}
